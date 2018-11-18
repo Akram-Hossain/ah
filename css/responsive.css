@@ -1,0 +1,90 @@
+/* Extra small devices (portrait phones, less than 576px) */ 
+@media(min-width: 320px) and (max-width: 575px) {    
+    .ban_text h2 {
+        font-size: 18px;
+    }
+    .ban_text h1 {
+        font-size: 30px;
+    }
+    .ban_text h4 {
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+    .banner_part {
+        background-size: contain;
+        background-position: top;
+    }
+    .ban_overlay {
+        padding: 60px 0px 0px;
+    }
+    .ban_text h3 {
+        font-size: 17px;
+        width: 29px;
+        height: 29px;
+        line-height: 29px;
+    }
+    .ban_text p {
+        display: none;
+    }
+    .ban_text a {
+        font-size: 14px;
+        padding: 3px 0px;
+    }
+    .ban_text a::before {
+        left: 103px;
+        bottom: 11px;
+    }
+    .me_overlay h4 {
+        padding-top: 160px;
+    }
+    .about_content h5 {
+        padding-bottom: 0px;
+        padding-top: 17px;
+    }
+    .hire_text h2 {
+        font-size: 33px;
+    }
+    .hire_text a {
+        margin-left: 45px;
+    }
+    .client_1 {
+        margin-bottom: 20px;
+    }
+    .contact_text h3 {
+        font-size: 33px;
+    }
+    .contact_text p {
+        font-size: 14px;
+    }
+    .contact_email input[type="email"] {
+        width: 240px;
+        font-size: 15px;
+    }
+    .contact_email input[type="submit"] {
+        padding: 9px 15px;
+    }
+    .ftr_link,
+    .social_icon {
+        margin-bottom: 30px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+      
+}
+
+/* Medium devices (tablets, 768px and up) */ 
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+       
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
